@@ -1,18 +1,23 @@
-// Classe para representar um jogador
 class Jogador {
-    private String nome;
-    private String tipoJogo;
+    String nome;
+    String jogo;
+    String genero;
 
-    public Jogador(String nome, String tipoJogo) {
+    public Jogador(String nome, String jogo, String genero) {
         this.nome = nome;
-        this.tipoJogo = tipoJogo;
+        this.jogo = jogo;
+        this.genero = genero;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public String getTipoJogo() {
-        return tipoJogo;
+    public String getJogo() {
+        return jogo;
+    }
+
+    public String getGenero() {
+        return genero;
     }
 }
